@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+/* navbar */
+.bg-color{
+    background: #000;
+}
+.nav-link{
+    color: white;
+    padding: 8px 30px!important;
+}
+.nav-link:hover{
+    background: white;
+    color: #000;
+}
+/* header */
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/coffeehouse.jpg");
+    height: 500px;
+}
+.bg-position{
+    position: absolute;
+    left: 0;
+    bottom: 28%;
+}
+.center{
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.bg-position-1{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%,-50%);
+}
+.bg-position-2{
+    position: absolute;
+    right: 0;
+    bottom: 28%;
+}
+.padding{
+    padding: 0;
+    margin: 0;
+}
+.d-position{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-item a{
+    background: #000;
+    color: white;
+}
+.navbar-item a:hover{
+    background: #000;
+    color: white;
+}
